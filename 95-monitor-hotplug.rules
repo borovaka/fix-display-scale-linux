@@ -1,0 +1,2 @@
+ACTION=="change", SUBSYSTEM=="drm",  RUN+="/usr/bin/systemctl --no-block start fix-monitor-font-scale.service"
+

@@ -1,0 +1,5 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/fix_font_scale.sh
+User=borovaka
+Group=borovaka
